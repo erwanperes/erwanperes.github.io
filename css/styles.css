@@ -1,3 +1,8 @@
+html,
+body {
+  height: 100%;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -6,10 +11,9 @@ body {
   background-color: #e9edf1;
   font-family: "Nunito", sans-serif;
   margin: 0;
-}
-
-p {
   font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -21,6 +25,7 @@ main {
   max-width: 1200px;
   margin: 0 auto;
   padding: 3em;
+  flex: 1 0 auto;
 }
 
 nav {
@@ -87,6 +92,17 @@ ul li a.active {
 
 ul li a:hover {
   color: #0460bc;
+}
+
+.footer {
+  background: #dbe1e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0, 0, 0, 0.3);
+  flex-shrink: 0;
 }
 
 @media screen and (min-width: 600px) {
