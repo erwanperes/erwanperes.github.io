@@ -1,0 +1,176 @@
+:root {
+  --gray: #6B6B6B;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+/* typo */
+h1,
+h2,
+h3 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2em;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: var(--gray);
+  font-weight: 300;
+  padding: 0.5em 0 0 0;
+}
+
+.description--small {
+  font-size: 13px;
+}
+
+.article-content {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.article-content p {
+  margin-bottom: 1.5rem;
+}
+
+/* colors */
+.semi-color {
+  color: var(--gray);
+}
+
+/* helpers */
+
+.fa-2x {
+  font-size: 22px;
+  color: var(--gray);
+  font-weight: 100;
+  margin-left: 1em;
+}
+
+.fa-2x:hover {
+  cursor: pointer;
+  color: black;
+}
+
+a {
+  color: black;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: var(--gray);
+  text-decoration: none;
+}
+
+/*  */
+body {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.header-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  padding: 18px 0 18px 0;
+}
+
+.header-photo img {
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+}
+
+.header-description {
+  margin-left: 1rem;
+}
+
+.header-description p:first-of-type {
+  margin-bottom: 6px;
+}
+
+.header-utilities {
+  display: flex;
+  justify-content: space-between;
+  border-top: solid 1px gainsboro;
+  border-bottom: solid 1px gainsboro;
+  padding: 20px 0 20px 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-image {
+  background-image: url("https://miro.medium.com/v2/resize:fit:4112/1*4NOuRJAXpull9polV9vcyg.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 440px;
+}
+
+.container {
+  min-width: 340px;
+  margin: 50px auto;
+  max-width: 75%;
+}
+
+/* 576px, 768px, 992px et 1200px */
+@media (min-width: 440px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    width: 1370px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    width: 1570px;
+  }
+}
