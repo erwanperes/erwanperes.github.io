@@ -89,12 +89,6 @@ ul li a:hover {
   color: #0460bc;
 }
 
-.mobile-cart-menu {
-  display: flex;
-  align-items: center;
-  gap: 2em;
-}
-
 @media screen and (min-width: 600px) {
   .menu-btn,
   .close {
