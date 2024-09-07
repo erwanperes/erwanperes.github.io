@@ -1,0 +1,27 @@
+.channel-section {
+  margin-top: 24px;
+}
+
+.channel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.channel-header h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.channel.channel--active {
+  opacity: 1;
+}
+
+.channel {
+  opacity: 0.5;
+}
+
+.channel i {
+  font-size: 14px;
+  margin-right: 8px;
+}

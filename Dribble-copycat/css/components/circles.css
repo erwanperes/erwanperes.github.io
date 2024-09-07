@@ -1,0 +1,14 @@
+.circles-container {
+  position: relative;
+}
+
+.doughnut {
+  position: absolute;
+  background: radial-gradient(circle, transparent 55%, #2260ff 0%);
+  border-radius: 300px;
+  height: 300px;
+  width: 300px;
+  top: -300px;
+  left: -190px;
+  box-shadow: 10px 10px 7px rgb(0 0 0 / 0.3);
+}

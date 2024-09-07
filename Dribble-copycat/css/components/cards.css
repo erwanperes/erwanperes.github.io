@@ -1,0 +1,79 @@
+.pricing-cards-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pricing-card {
+  padding: 1rem;
+  background-color: #f7f7f7;
+  border-radius: 1.3em;
+  margin: 1rem 1rem;
+  padding: 3.4em 2em;
+  position: relative;
+}
+
+.pricing-card.accent {
+  background-color: #2260ff;
+  color: white;
+  box-shadow: 8px 10px 10px rgb(0 0 0 / 0.2);
+  top: -10px;
+}
+
+.pricing-card.accent .feature {
+  color: white;
+}
+
+.price-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.plan-name {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.plan-price {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.plan-price::after {
+  content: "$";
+}
+
+.plan-cat {
+  text-align: center;
+  margin-top: 3em;
+}
+
+.feature {
+  color: #a3a4a8;
+  margin-bottom: 0.5rem;
+}
+
+.feature:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 840px) {
+  .pricing-cards-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .pricing-card,
+  .pricing-card.accent {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1rem;
+    postion: initial;
+  }
+
+  .feature {
+    text-align: center;
+  }
+}

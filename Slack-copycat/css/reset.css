@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+button,
+input,
+select {
+  font-family: "Varela", sans-serif;
+  color: #45424d;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+button,
+input {
+  padding: 0;
+  background: transparent;
+  border: 0;
+  outline: none;
+  font-size: 1rem;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table th {
+  text-align: left;
+}

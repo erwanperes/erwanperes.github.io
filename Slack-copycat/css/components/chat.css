@@ -1,0 +1,62 @@
+.message-container {
+  flex-grow: 1;
+  background-color: white;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  color: #212529;
+}
+
+.message-header {
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.message-header h1 {
+  font-size: 24px;
+}
+
+.message-header i {
+  font-size: 20px;
+  margin-right: 6px;
+}
+
+.message-discussion {
+  flex-grow: 1;
+  padding: 16px 0;
+  overflow: scroll;
+}
+
+.discussion-card {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.discussion-card img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 16px;
+}
+
+.discussion-line p {
+  margin: 0px;
+}
+
+.discussion-line a {
+}
+
+.discussion-line ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.discussion-line ul li {
+  margin-top: 12px;
+}
+
+.no-photo {
+  opacity: 0;
+}
+.message-input {
+}
